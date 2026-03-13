@@ -1,0 +1,10 @@
+Write two programs ‐ a client and a server ‐ that communicate using a socket. The client
+sends a character string entered from the keyboard to the server via the socket created. The
+server reads the message received from the client and displays it on the screen. The server
+then sends back to the client the message "I got your message", which will be displayed by
+the client. You are asked to write these same programs in three different ways:
+a) Using a local socket in connected mode with up to 5 simultaneous connections. The
+socket name is taken as a parameter when the programs are run.
+b) Using remote sockets in connected mode, with the same characteristics as in the previous
+part.
+c) Using remote sockets in non‐connected mode.
